@@ -1,0 +1,36 @@
+---
+---
+
+@import 'main';
+
+/* append your custom style below */
+
+/* These css elements left align code blocks inside a details and summary tag */
+/* if I want to align things in the center still, add a <center> tag */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px; /* Adjust the margin as needed */
+    }   
+  
+details {
+    width: 100%; /* Adjust the width of the details element as needed */ 
+  }
+  
+summary {
+    text-align: center;
+    font-weight: bold;
+  }
+
+/* Elements to change text */
+body {
+    text-align: justify;
+  }
+
+/* Block quotes */
+blockquote {
+    border-left: 5px solid rgb(21, 74, 135);
+    background-color: rgb(39, 39, 43);
+    padding-right: 10px; 
+}

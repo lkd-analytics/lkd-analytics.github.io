@@ -8,6 +8,8 @@ output:
     preserve_yaml: yes
 tags: [volleyball]
 always_allow_html: true
+image:
+    path: "/assets/images/volleystat_review/banner.png"
 ---
 
 ------------------------------------------------------------------------

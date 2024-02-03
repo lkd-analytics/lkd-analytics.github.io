@@ -795,7 +795,6 @@ ggplot(top3_bottom3_1819_men, aes(x = team_name_abrv, y = value, fill = team_nam
   scale_linetype_manual(values = 5)
 ```
 
-![](/assets/images/volleystat_review/unnamed-chunk-8-1.png)
 </details>
 
 ![](/assets/images/volleystat_review/unnamed-chunk-9-1.png)
@@ -860,7 +859,6 @@ ggplot(serve_metrics_13to19,aes(x = season_id, y = value, col = team_name)) +
   scale_color_d3()
 ```
 
-![](/assets/images/volleystat_review/unnamed-chunk-10-1.png)
 </details>
 
 ![](/assets/images/volleystat_review/unnamed-chunk-11-1.png)
